@@ -1,2 +1,15 @@
 
 /* Your CSS Code here. */
+.holder div{
+	width:100px;
+     height:100px;
+	background:#333333;
+	
+}
+.holder{
+	display:grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-row-gap:20px;
+	grid-row: auto auto;
+    grid-column-gap: 20px;
+}
